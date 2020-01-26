@@ -3,19 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <title>TinDog</title>
+    <!-- bootstrap css -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- G fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- local css link -->
     <link rel="stylesheet" href="resources/css/styles.css" />
   </head>
 
   <body>
     <section id="title">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Tin Dog</a>
         <button
           class="navbar-toggler"
@@ -42,13 +47,15 @@
       </nav>
 
       <!-- Title -->
-      <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button">Download</button>
+          <button type="button">Download</button>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="images/iphone6.png" alt="iphone-mockup" />
+        </div>
       </div>
     </section>
 
