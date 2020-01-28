@@ -3,33 +3,42 @@ font-family: 'Montserrat', sans-se
  */
 body {
   background-color: #ff4161;
-  font-family: 'Montserrat', sans-se;
+  font-family: "Montserrat", sans-se;
   /* font-weight: 400; */
 }
-h1{
-    font-family: 'Montserrat', sans-se;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    color: #ffff;
+h1 {
+  font-family: "Montserrat", sans-se;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffff;
 }
 /* ------------------------------- */
-   /* Header section */
+/* Header section */
 /* ------------------------------- */
 
 /* nav Bar */
-.navbar-brand{
-  font-family: 'Ubuntu', sans-serif;
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
- }
- /* Hero section */
-.container-fluid{
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Hero section */
+.container-fluid {
   padding: 3% 15%;
 }
-.heroImg{
+.heroImg {
   transform: rotate(20deg);
 }
-.heroSection{
+.heroSection {
   margin-top: 3rem;
+  
 }
