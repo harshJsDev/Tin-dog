@@ -7,14 +7,22 @@ body {
   /* font-weight: 400; */
 }
 h1 {
-  font-family: "Montserrat", sans-se;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
   color: #ffff;
 }
-h3 {
+h3,
+h2 {
   font-weight: 700;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
 }
 p {
   color: #8f8f8f;
@@ -55,8 +63,8 @@ p {
 /* Feature section */
 /* ------------------------------- */
 
-#features {
-  background-color: #ffff;
+#features,
+#testimonials {
   padding: 7% 15%;
 }
 .feature-box {
@@ -69,4 +77,17 @@ p {
 }
 .icon:hover {
   color: #ff4c68;
+}
+
+/* ------------------------------- */
+/* Testimonials */
+/* ------------------------------- */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
 }
