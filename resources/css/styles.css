@@ -13,9 +13,14 @@ h1 {
   line-height: 1.5;
   color: #ffff;
 }
-#title{
+h3 {
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+#title {
   background-color: #ff4161;
-
 }
 /* ------------------------------- */
 /* Header section */
@@ -43,13 +48,25 @@ h1 {
   transform: rotate(20deg);
 }
 .heroSection {
-  margin-top: 3rem;  
+  margin-top: 3rem;
 }
 
 /* ------------------------------- */
 /* Feature section */
 /* ------------------------------- */
 
-#features{
+#features {
   background-color: #ffff;
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.icon:hover {
+  color: #ff4c68;
 }
