@@ -7,15 +7,28 @@ body {
   /* font-weight: 400; */
 }
 h1 {
-  font-family: "Montserrat", sans-se;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
   color: #ffff;
 }
-#title{
-  background-color: #ff4161;
+h3,
+h2 {
+  font-weight: 700;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
+h3{
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+#title {
+  background-color: #ff4161;
 }
 /* ------------------------------- */
 /* Header section */
@@ -43,13 +56,59 @@ h1 {
   transform: rotate(20deg);
 }
 .heroSection {
-  margin-top: 3rem;  
+  margin-top: 3rem;
 }
 
 /* ------------------------------- */
 /* Feature section */
 /* ------------------------------- */
 
-#features{
-  background-color: #ffff;
+#features,
+#testimonials {
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* ------------------------------- */
+/* Testimonials */
+/* ------------------------------- */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 0;
+}
+/* ------------------------------- */
+/* Pricing */
+/* ------------------------------- */
+
+#pricing{
+padding: 100px;
+text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
 }
