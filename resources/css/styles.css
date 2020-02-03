@@ -1,7 +1,7 @@
 /* font-family: 'Ubuntu', sans-serif;
 font-family: 'Montserrat', sans-se
  */
-body {
+ body {
   background-color: #ffffff;
   font-family: "Montserrat", sans-se;
   /* font-weight: 400; */
@@ -50,23 +50,38 @@ p {
 
 /* Hero section */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
 }
 .heroImg {
   transform: rotate(20deg);
+  position: absolute;
+  
+  width: 60%;
 }
-.heroSection {
+.hero-section {
+  
   margin-top: 3rem;
+  
+  
 }
 
 /* ------------------------------- */
 /* Feature section */
 /* ------------------------------- */
-
+#features{
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
 #features,
 #testimonials {
   padding: 7% 15%;
+  
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
+
 .feature-box {
   text-align: center;
   padding: 5%;
@@ -111,4 +126,4 @@ text-align: center;
 }
 .pricing-column{
   padding: 3% 2%;
-}
+} 
