@@ -3,33 +3,41 @@ font-family: 'Montserrat', sans-se
  */
 body {
   background-color: #ffffff;
-  font-family: "Montserrat", sans-se;
+  text-align: center;
+
   /* font-weight: 400; */
 }
-h1 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-se;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4161;
+  text-align: left;
+}
+
+/* heading */
+.big-heading {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
   color: #ffff;
 }
-h3,
-h2 {
-  font-weight: 700;
-}
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
-h3{
-  font-size: 1.5rem;
-}
-p {
-  color: #8f8f8f;
-}
-#title {
-  background-color: #ff4161;
-}
 /* ------------------------------- */
 /* Header section */
 /* ------------------------------- */
@@ -40,9 +48,11 @@ p {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
@@ -50,31 +60,50 @@ p {
 
 /* Hero section */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
 }
+
 .heroImg {
   transform: rotate(20deg);
+  position: absolute;
+
+  width: 60%;
 }
-.heroSection {
+
+.hero-section {
+
   margin-top: 3rem;
+
+
 }
 
 /* ------------------------------- */
 /* Feature section */
 /* ------------------------------- */
+#features {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
 
 #features,
 #testimonials {
   padding: 7% 15%;
+
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
+
 .icon {
   color: #ef8172;
   margin-bottom: 2rem;
 }
+
 .icon:hover {
   color: #ff4c68;
 }
@@ -83,32 +112,82 @@ p {
 /* Testimonials */
 /* ------------------------------- */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #ffffff;
 }
-.testimonial-img{
+
+.testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-#press{
+
+/* ------------------------------- */
+/* Press */
+/* ------------------------------- */
+#press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
-.press-logo{
+
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px 0;
 }
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
 /* ------------------------------- */
 /* Pricing */
 /* ------------------------------- */
 
-#pricing{
-padding: 100px;
-text-align: center;
+#pricing {
+  padding: 100px;
 }
-.pricing-column{
+
+.pricing-column {
   padding: 3% 2%;
+}
+
+.pricing-section-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.plan-name {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ------------------------------- */
+/* media Queries */
+/* ------------------------------- */
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .heroImg {
+    position: static;
+    transform: rotate(0);
+    margin-top: 1%;
+  }
+}
+
+/* ------------------------------- */
+/* CTA*/
+/* ------------------------------- */
+#cta {
+  background-color: #ff4161;
+  color: #ffff;
+  
+  padding: 7% 15%;
 }
